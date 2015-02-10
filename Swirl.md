@@ -2,8 +2,17 @@
 
 Contents:
 
+- [Help](#Help)
 - [Workspace](#Workspace)
 - [Write .csv file from data loaded in R](#write.csv)
+
+
+<a name="Help"/>
+## Accessing the help files for built in functions
+### accesing help on a specific topic
++ access help on spread() by typing ?spread
++ access help on library() by typing ?library
+
 
 <a name="Workspace"/>
 ## Workspace
@@ -31,3 +40,5 @@ Contents:
   - res <- gather(students2,sex_class,count,-grade)
 + separate()
   - separate(data=res,col = sex_class, into = c("sex", "class"))
++ spread()
++ mutate()
