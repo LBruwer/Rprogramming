@@ -2,8 +2,6 @@
 
 Contents:
 
-Type ls() to see a list of the variables in your workspace. Then, type rm(list=ls()) to clear your workspace
-
 - [Workspace](#Workspace)
 - [Write .csv file from data loaded in R](#write.csv)
 
