@@ -53,3 +53,8 @@ Contents:
 ## File and Directory Management
 + create new directory
   - dir.create("data")
+
+## Structure
++ display the dtructure of an arbitrary R object
++ provides useful summary on dataset
+  - str(x)
