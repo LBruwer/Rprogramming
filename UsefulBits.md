@@ -58,3 +58,8 @@ Contents:
 + display the dtructure of an arbitrary R object
 + provides useful summary on dataset
   - str(x)
+
+## View
++ displays the dataset in tabular form
++ note the capital V
+  - View(x)
