@@ -64,8 +64,22 @@ Contents:
 + note the capital V
   - View(x)
 
-## Summary
+## summary
 + summary of data
   - summary(x)
 + summary of subset of data (summary of column)
   - summary(x$age)
+
+## matrix
++ create matrix of elements
+  - matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE,dimnames = NULL)
++ matrix with four elements 1,2,3,4 in 2 rows
+  - matrix(1:4,2)
+
+## table
++ tabular summary of subset of data
+  - summary(x$age)
++ prop.table returns table entries as fraction of the marginal table
+  -  m <- matrix(1:4,2)
+  -  m
+  -  prop.table(m,1)
