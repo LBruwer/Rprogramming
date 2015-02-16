@@ -63,3 +63,9 @@ Contents:
 + displays the dataset in tabular form
 + note the capital V
   - View(x)
+
+## Summary
++ summary of data
+  - summary(x)
++ summary of subset of data (summary of column)
+  - summary(x$age)
