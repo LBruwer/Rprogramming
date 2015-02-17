@@ -2,7 +2,7 @@
 
 Contents:
 
-- [Help](#Help)
+- [A](#A)  [B](#B)  [W](#W)  
 - [Workspace](#Workspace)
 - [Write .csv file from data loaded in R](#write.csv)
 
