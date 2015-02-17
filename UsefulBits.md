@@ -22,6 +22,11 @@ _________________________________________________________________________
 ### bind_rows
 + combining tables by row bind_rows(x,y)
 
+
+# C <a name="C"/>
+### class
+
+
 # D <a name="D"/>
 ### download.file
 + download.file(fileUrl, destfile="./data/microdata.csv", method="curl")
@@ -40,6 +45,7 @@ _________________________________________________________________________
 ### accesing help on a specific topic
 + access help on spread() by typing ?spread
 + access help on library() by typing ?library
++ access help on package lubridate by typing help(package = lubridate)
 
 
 # L <a name="L"/>
@@ -65,6 +71,11 @@ _________________________________________________________________________
 ### NA
 + Remove NA's from calculation
   - sum(ss06hid$VAL >= 24,na.rm = TRUE)
+
+
+### now
++ now()
+  - hour, minute
 
 
 # S <a name="S"/>
@@ -94,6 +105,16 @@ _________________________________________________________________________
   -  m <- matrix(1:4,2)
   -  m
   -  prop.table(m,1)
+
+### today {lubridate}
++ today()
+  - weekday wday()
+  - day, year, month
++ ymd(), dmy(), hms(), ymd_hms()
+  - ymd("1989 may 17") returns "1989-05-17 UTC"
+  - mdy("March 12 1975") returns "1975-03-12 UTC"
+  - dmy(25081985) returns "1985-08-25 UTC"
++ now()
 
 <a name="tidy"/>
 ### tidy
