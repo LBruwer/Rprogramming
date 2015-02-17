@@ -114,7 +114,20 @@ _________________________________________________________________________
   - ymd("1989 may 17") returns "1989-05-17 UTC"
   - mdy("March 12 1975") returns "1975-03-12 UTC"
   - dmy(25081985) returns "1985-08-25 UTC"
++ update()
+  - this_moment, hours = 8, minutes = 34, seconds = 55)
 + now()
+  - nyc <- now("America/New_York")  ("2015-02-19 07:06:11 EST")
+  - nyc + days(2) returns 
+  - http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
++ time zone
+  - with_tz()
+  - arrive <- with_tz(arrive, "Asia/Hong_Kong")
++ elapsed time
+  - new_interval()  - how_long <- new_interval(last_time,arrive)
+  - as.period(how_long) returns "6y 8m 3d 22H 24M 11.6900999546051S"
++ stopwatch()
+  - how long been working
 
 <a name="tidy"/>
 ### tidy
