@@ -93,4 +93,4 @@ Contents:
   - this stores the result of the select in student_info
 
 ## select
-+ select(x,age) returns oly column age
++ select(x,age) returns only column age
