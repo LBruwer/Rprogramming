@@ -6,8 +6,21 @@ Contents:
 - [Workspace](#Workspace)
 - [Write .csv file from data loaded in R](#write.csv)
 
+_________________________________________________________________________
+-------------------------------------------------------------------------
+
+
 # A
 
+# D
+## download.file
++ download.file(fileUrl, destfile="./data/microdata.csv", method="curl")
+  - fileurl <- "https://... "
+
+# F
+## File and Directory Management
++ create new directory
+  - dir.create("data")
 
 # H
 <a name="Help"/>
@@ -51,17 +64,12 @@ Contents:
 ## sum
 + sum(ss06hid$VAL >= 24)
 
+# N
 ## NA
 + Remove NA's from calculation
   - sum(ss06hid$VAL >= 24,na.rm = TRUE)
 
-## download.file
-+ download.file(fileUrl, destfile="./data/microdata.csv", method="curl")
-  - fileurl <- "https://... "
 
-## File and Directory Management
-+ create new directory
-  - dir.create("data")
 
 ## Structure
 + display the dtructure of an arbitrary R object
