@@ -9,18 +9,28 @@ Contents:
 _________________________________________________________________________
 -------------------------------------------------------------------------
 
+## %>%
++ chaining commands - read as "then"
+  - student_info <- students4 %>%
+  
+    select(id, name, sex) %>%
+  
+  - this stores the result of the select in student_info
 
 # A
+
 
 # D
 ## download.file
 + download.file(fileUrl, destfile="./data/microdata.csv", method="curl")
   - fileurl <- "https://... "
 
+
 # F
 ## File and Directory Management
 + create new directory
   - dir.create("data")
+
 
 # H
 <a name="Help"/>
@@ -30,20 +40,54 @@ _________________________________________________________________________
 + access help on library() by typing ?library
 
 
-# W
-<a name="Workspace"/>
-## Workspace
-### list of variables
-+ Type ls() to see a list of the variables in your workspace
-  - type rm(list=ls()) to clear your workspace
+# M
+## matrix
++ create matrix of elements
+  - matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE,dimnames = NULL)
++ matrix with four elements 1,2,3,4 in 2 rows
+  - matrix(1:4,2)
 
-<a name="write.csv"/>
-## write.csv
-### Write .csv file from data loaded in R
-+ write.csv(by_package, file = "by_package.csv")
+## mutate {dplyr}
++ add new column called status to table called passed
++ assign the value "passed" to each row in table
++ store the table with extra column in same table called passed
+  -  passed <- passed %>% mutate(status = "passed") 
+
+
+# N
+## NA
++ Remove NA's from calculation
+  - sum(ss06hid$VAL >= 24,na.rm = TRUE)
+
+
+# S
+## select
++ select(x,age) returns only column age
+
+## Structure
++ display the dtructure of an arbitrary R object
++ provides useful summary on dataset
+  - str(x)
+
+## sum
++ sum(ss06hid$VAL >= 24)
+
+## summary
++ summary of data
+  - summary(x)
++ summary of subset of data (summary of column)
+  - summary(x$age)
 
 
 # T
+## table
++ tabular summary of subset of data
+  - summary(x$age)
++ prop.table returns table entries as fraction of the marginal table
+  -  m <- matrix(1:4,2)
+  -  m
+  -  prop.table(m,1)
+
 <a name="tidy"/>
 ## tidy
 ### load tidy library
@@ -60,64 +104,27 @@ _________________________________________________________________________
 + mutate()
 
 
-# S
-## sum
-+ sum(ss06hid$VAL >= 24)
-
-# N
-## NA
-+ Remove NA's from calculation
-  - sum(ss06hid$VAL >= 24,na.rm = TRUE)
+# U
+## unique
++ eliminates duplicate rows
 
 
-
-## Structure
-+ display the dtructure of an arbitrary R object
-+ provides useful summary on dataset
-  - str(x)
-
+# V
 ## View
 + displays the dataset in tabular form
 + note the capital V
   - View(x)
 
-## summary
-+ summary of data
-  - summary(x)
-+ summary of subset of data (summary of column)
-  - summary(x$age)
 
-## matrix
-+ create matrix of elements
-  - matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE,dimnames = NULL)
-+ matrix with four elements 1,2,3,4 in 2 rows
-  - matrix(1:4,2)
+# W
+<a name="Workspace"/>
+## Workspace
+### list of variables
++ Type ls() to see a list of the variables in your workspace
+  - type rm(list=ls()) to clear your workspace
 
-## table
-+ tabular summary of subset of data
-  - summary(x$age)
-+ prop.table returns table entries as fraction of the marginal table
-  -  m <- matrix(1:4,2)
-  -  m
-  -  prop.table(m,1)
-
-## %>%
-+ chaining commands - read as "then"
-  - student_info <- students4 %>%
-  
-    select(id, name, sex) %>%
-  
-  - this stores the result of the select in student_info
-
-## select
-+ select(x,age) returns only column age
-
-## unique
-+ eliminates duplicate rows
-
-## mutate {dplyr}
-+ add new column called status to table called passed
-+ assign the value "passed" to each row in table
-+ store the table with extra column in same table called passed
-  -  passed <- passed %>% mutate(status = "passed") 
+<a name="write.csv"/>
+## write.csv
+### Write .csv file from data loaded in R
++ write.csv(by_package, file = "by_package.csv")
 
