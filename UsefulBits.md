@@ -42,6 +42,11 @@ _________________________________________________________________________
 + access help on library() by typing ?library
 
 
+# L <a name="L"/>
+### locale - date and region settings
++ Sys.getlocale("LC_TIME")
+
+
 # M <a name="M"/>
 ### matrix
 + create matrix of elements
