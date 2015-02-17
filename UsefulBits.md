@@ -94,3 +94,7 @@ Contents:
 
 ## select
 + select(x,age) returns only column age
+
+## unique
++ eliminates duplicate rows
+
