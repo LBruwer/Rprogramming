@@ -2,9 +2,8 @@
 
 Contents:
 
-- [A](#A)  [B](#B)  [M](#M)  [W](#W)  
-- [Workspace](#Workspace)
-- [Write .csv file from data loaded in R](#write.csv)
+- [A](#A)  [B](#B)  [D](#D)  [F](#F)  [H](#H)  [M](#M)  [N](#N)  [S](#S)  [T](#T)  [U](#U)  [V](#V)  [W](#W)  
+
 
 _________________________________________________________________________
 -------------------------------------------------------------------------
@@ -17,24 +16,24 @@ _________________________________________________________________________
   
   - this stores the result of the select in student_info
 
-# A
+# A <a name="A"/>
 
 
-# D
+# D <a name="D"/>
 ## download.file
 + download.file(fileUrl, destfile="./data/microdata.csv", method="curl")
   - fileurl <- "https://... "
 
 
-# F
+# F <a name="F"/>
 ## File and Directory Management
 + create new directory
   - dir.create("data")
 
 
-# H
+# H <a name="H"/>
 <a name="Help"/>
-## Accessing the help files for built in functions
+### Accessing the help files for built in functions
 ### accesing help on a specific topic
 + access help on spread() by typing ?spread
 + access help on library() by typing ?library
@@ -54,13 +53,13 @@ _________________________________________________________________________
   -  passed <- passed %>% mutate(status = "passed") 
 
 
-# N
+# N <a name="N"/>
 ## NA
 + Remove NA's from calculation
   - sum(ss06hid$VAL >= 24,na.rm = TRUE)
 
 
-# S
+# S <a name="S"/>
 ## select
 + select(x,age) returns only column age
 
@@ -79,7 +78,7 @@ _________________________________________________________________________
   - summary(x$age)
 
 
-# T
+# T <a name="T"/>
 ## table
 + tabular summary of subset of data
   - summary(x$age)
@@ -104,12 +103,12 @@ _________________________________________________________________________
 + mutate()
 
 
-# U
+# U <a name="U"/>
 ## unique
 + eliminates duplicate rows
 
 
-# V
+# V <a name="V"/>
 ## View
 + displays the dataset in tabular form
 + note the capital V
