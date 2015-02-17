@@ -98,3 +98,9 @@ Contents:
 ## unique
 + eliminates duplicate rows
 
+## mutate {dplyr}
++ add new column called status to table called passed
++ assign the value "passed" to each row in table
++ store the table with extra column in same table called passed
+  -  passed <- passed %>% mutate(status = "passed") 
+
