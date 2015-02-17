@@ -83,3 +83,14 @@ Contents:
   -  m <- matrix(1:4,2)
   -  m
   -  prop.table(m,1)
+
+## %>%
++ chaining commands - read as "then"
+  - student_info <- students4 %>%
+  
+    select(id, name, sex) %>%
+  
+  - this stores the result of the select in student_info
+
+## select
++ select(x,age) returns oly column age
