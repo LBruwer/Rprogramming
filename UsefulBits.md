@@ -1,14 +1,16 @@
 # Learning from Swirl (and other sources)
 
 Contents:
+## Click on the letter below to scroll to the same section
 
-- [A](#A)  [B](#B)  [D](#D)  [F](#F)  [H](#H)  [M](#M)  [N](#N)  [S](#S)  [T](#T)  [U](#U)  [V](#V)  [W](#W)  
+- [A](#A)  [B](#B)  [C](#C)  [D](#D)  [E](#E)  [F](#F)  [G](#G)  [H](#H)  [I](#I)  [J](#J)  [K](#K)  [L](#L)  [M](#M)
+- [N](#N)  [O](#O)  [P](#P)  [Q](#Q)  [R](#R)  [S](#S)  [T](#T)  [U](#U)  [V](#V)  [W](#W)  [X](#X)  [Y](#Y)  [Z](#Z)
 
 
 _________________________________________________________________________
 -------------------------------------------------------------------------
 
-## %>%
+### %>%
 + chaining commands - read as "then"
   - student_info <- students4 %>%
   
@@ -20,13 +22,13 @@ _________________________________________________________________________
 
 
 # D <a name="D"/>
-## download.file
+### download.file
 + download.file(fileUrl, destfile="./data/microdata.csv", method="curl")
   - fileurl <- "https://... "
 
 
 # F <a name="F"/>
-## File and Directory Management
+### File and Directory Management
 + create new directory
   - dir.create("data")
 
@@ -40,13 +42,13 @@ _________________________________________________________________________
 
 
 # M <a name="M"/>
-## matrix
+### matrix
 + create matrix of elements
   - matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE,dimnames = NULL)
 + matrix with four elements 1,2,3,4 in 2 rows
   - matrix(1:4,2)
 
-## mutate {dplyr}
+### mutate {dplyr}
 + add new column called status to table called passed
 + assign the value "passed" to each row in table
 + store the table with extra column in same table called passed
@@ -54,24 +56,24 @@ _________________________________________________________________________
 
 
 # N <a name="N"/>
-## NA
+### NA
 + Remove NA's from calculation
   - sum(ss06hid$VAL >= 24,na.rm = TRUE)
 
 
 # S <a name="S"/>
-## select
+### select
 + select(x,age) returns only column age
 
-## Structure
+### Structure
 + display the dtructure of an arbitrary R object
 + provides useful summary on dataset
   - str(x)
 
-## sum
+### sum
 + sum(ss06hid$VAL >= 24)
 
-## summary
+### summary
 + summary of data
   - summary(x)
 + summary of subset of data (summary of column)
@@ -79,7 +81,7 @@ _________________________________________________________________________
 
 
 # T <a name="T"/>
-## table
+### table
 + tabular summary of subset of data
   - summary(x$age)
 + prop.table returns table entries as fraction of the marginal table
@@ -88,7 +90,7 @@ _________________________________________________________________________
   -  prop.table(m,1)
 
 <a name="tidy"/>
-## tidy
+### tidy
 ### load tidy library
 + library(tidyr)
 + tidy data satisfies three conditions:
@@ -104,12 +106,12 @@ _________________________________________________________________________
 
 
 # U <a name="U"/>
-## unique
+### unique
 + eliminates duplicate rows
 
 
 # V <a name="V"/>
-## View
+### View
 + displays the dataset in tabular form
 + note the capital V
   - View(x)
@@ -117,13 +119,13 @@ _________________________________________________________________________
 
 # W <a name="W"/>
 <a name="Workspace"/>
-## Workspace
+### Workspace
 ### list of variables
-+ Type ls() to see a list of the variables in your workspace
++ type ls() to see a list of the variables in your workspace
   - type rm(list=ls()) to clear your workspace
 
 <a name="write.csv"/>
-## write.csv
-### Write .csv file from data loaded in R
+### write.csv
+### write .csv file from data loaded in R
 + write.csv(by_package, file = "by_package.csv")
 
