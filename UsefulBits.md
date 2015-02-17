@@ -2,7 +2,7 @@
 
 Contents:
 
-- [A](#A)  [B](#B)  [W](#W)  
+- [A](#A)  - [B](#B)  - [W](#W)  
 - [Workspace](#Workspace)
 - [Write .csv file from data loaded in R](#write.csv)
 
@@ -116,7 +116,7 @@ _________________________________________________________________________
   - View(x)
 
 
-# W
+# W <a name="W"/>
 <a name="Workspace"/>
 ## Workspace
 ### list of variables
