@@ -6,13 +6,18 @@ Contents:
 - [Workspace](#Workspace)
 - [Write .csv file from data loaded in R](#write.csv)
 
+# A
 
+
+# H
 <a name="Help"/>
 ## Accessing the help files for built in functions
 ### accesing help on a specific topic
 + access help on spread() by typing ?spread
 + access help on library() by typing ?library
 
+
+# W
 <a name="Workspace"/>
 ## Workspace
 ### list of variables
@@ -24,6 +29,8 @@ Contents:
 ### Write .csv file from data loaded in R
 + write.csv(by_package, file = "by_package.csv")
 
+
+# T
 <a name="tidy"/>
 ## tidy
 ### load tidy library
@@ -39,6 +46,8 @@ Contents:
 + spread()
 + mutate()
 
+
+# S
 ## sum
 + sum(ss06hid$VAL >= 24)
 
