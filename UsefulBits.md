@@ -2,7 +2,7 @@
 
 Contents:
 
-- [A](#A)  - [B](#B)  - [W](#W)  
+- [A](#A)  [B](#B)  [M](#M)  [W](#W)  
 - [Workspace](#Workspace)
 - [Write .csv file from data loaded in R](#write.csv)
 
@@ -40,7 +40,7 @@ _________________________________________________________________________
 + access help on library() by typing ?library
 
 
-# M
+# M <a name="M"/>
 ## matrix
 + create matrix of elements
   - matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE,dimnames = NULL)
