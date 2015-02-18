@@ -37,4 +37,19 @@ _________________________________________________________________________
 + subset(data.df,select=variables,logical)     - get those objects from a data frame that meet a criterion
 + data.df[data.df=logical]                     - yet another way to get a subset
 + x[order(x$B),]                               - sort a dataframe by the order of the elements in B
-+ x[rev(order(x$B)),]                          - sort the dataframe in reverse order 
++ x[rev(order(x$B)),]                      \t\t- sort the dataframe in reverse order 
+
+
+# Moving around
++ ls()                                     	 #list the variables in the workspace
++ rm(x)                                     #remove x from the workspace
++ rm(list=ls())                             #remove all the variables from the workspace
++ attach(mat)                               #make the names of the variables in the matrix or data frame available in the workspace
++ detach(mat)                               #releases the names (remember to do this each time you attach something)
++ with(mat, .... )                          #a preferred alternative to attach ... detach
++ new <- old[,-n]                              #drop the nth column
++ new <- old[-n,]                              #drop the nth row
++ new <- old[,-c(i,j)]                      #drop the ith and jth column
++ new <- subset(old,logical)                   #select those cases that meet the logical condition
++ complete  <-  subset(data.df,complete.cases(data.df)) #find those cases with no missing values
++ new <- old[n1:n2,n3:n4]                      #select the n1 through n2 rows of variables n3 through n4)
