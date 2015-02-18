@@ -22,7 +22,7 @@ _________________________________________________________________________
 read.table(filename,header=TRUE)           #read a tab or space delimited file
 read.table(filename,header=TRUE,sep=',')   #read csv files
 
-## x <- c(1,2,4,8,16 )                        ### create a data vector with specified elements
+## x <- c(1,2,4,8,16 )  ##                    ### create a data vector with specified elements  ###
 y <- c(1:10)                                  #create a data vector with elements 1-10
 n <- 10
 x1 <- c(rnorm(n))                             #create a n item vector of random normal deviates
