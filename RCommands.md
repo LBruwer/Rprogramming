@@ -126,7 +126,8 @@ power.t.test(n = NULL, delta = NULL, sd = 1, sig.level = 0.05,
              alternative = c("two.sided", "one.sided"),strict = FALSE)
 
 ----
-## More statistics: Regression, the linear model, factor analysis and principal components analysis (PCA) 
+## More statistics:  
+### Regression, the linear model, factor analysis and principal components analysis (PCA)  
 
 matrices
 t(X)                                     #transpose of X
@@ -230,7 +231,7 @@ month= months(date)                               #see also weekdays, Julian
 ## And more...
 The psych package includes about 350 additional functions that I have created in the last 9 years. These were created because my students and I needed some specific operation. Some functions were added following requests from other users. Follow the instructions for installing the psych package. 
 
-### These functions include:
+### These functions include:  
 #alpha.scale       #find coefficient alpha for a scale and a dataframe of items
 #describe          #give means, sd, skew, n, and se 
 #summ.stats        #basic summary statistics by a grouping variable
