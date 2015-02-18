@@ -16,11 +16,11 @@ _________________________________________________________________________
   
   - this stores the result of the select in student_info
 
-### %/%
+### %/% "Div" or result
 + 
   -   
 
-### %%
+### %% "Mod" or remainder
 + 
   - 
 
