@@ -38,7 +38,7 @@ subset(dataset,logical)                    #those objects meeting a logical crit
 subset(data.df,select=variables,logical)   #get those objects from a data frame that meet a criterion
 data.df[data.df=logical]                   #yet another way to get a subset
 x[order(x$B),]                             #sort a dataframe by the order of the elements in B
-x[rev(order(x$B)),]                        #sort the dataframe in reverse order 
+x[rev(order(x$B)),]                        #sort the dataframe in reverse order
 
 browse.workspace                           #a Mac menu command that creates a window with information about all variables in the workspace
 ----
