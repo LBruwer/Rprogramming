@@ -233,22 +233,22 @@ The psych package includes about 350 additional functions that I have created in
 
 ### These functions include:  
 ----
-alpha.scale       #find coefficient alpha for a scale and a dataframe of items
-describe          #give means, sd, skew, n, and se 
-summ.stats        #basic summary statistics by a grouping variable
-error.crosses     #(error bars in two space)
-skew              #find skew
-panel.cor         #taken from the examples for pairs
-pairs.panels      #adapted from panel.cor  --   gives a splom, histogram, and correlation matrix
-multi.hist        #plot multiple histograms
-correct.cor       #given a correlation matrix and a vector of reliabilities, correct for reliability
-fisherz           #convert pearson r to fisher z
-paired.r          #test for difference of dependent correlations
-count.pairwise    #count the number of good cases when doing pairwise analysis
-eigen.loadings    #convert eigen vector vectors to factor loadings by unnormalizing them
-principal         #yet another way to do a principal components analysis -- brute force eignvalue decomp 
-factor.congruence #find the factor congruence coeffiecints
-factor.model      #given a factor model, find the correlation matrix
-factor.residuals  #how well does it fit?
-factor.rotate     #rotate two columns of a factor matrix by theta (in degrees)
+alpha.scale       #find coefficient alpha for a scale and a dataframe of items  
+describe          #give means, sd, skew, n, and se  
+summ.stats        #basic summary statistics by a grouping variable  
+error.crosses     #(error bars in two space)  
+skew              #find skew  
+panel.cor         #taken from the examples for pairs  
+pairs.panels      #adapted from panel.cor  --   gives a splom, histogram, and correlation matrix  
+multi.hist        #plot multiple histograms  
+correct.cor       #given a correlation matrix and a vector of reliabilities, correct for reliability  
+fisherz           #convert pearson r to fisher z  
+paired.r          #test for difference of dependent correlations  
+count.pairwise    #count the number of good cases when doing pairwise analysis  
+eigen.loadings    #convert eigen vector vectors to factor loadings by unnormalizing them  
+principal         #yet another way to do a principal components analysis -- brute force eignvalue decomp  
+factor.congruence #find the factor congruence coeffiecints  
+factor.model      #given a factor model, find the correlation matrix  
+factor.residuals  #how well does it fit?  
+factor.rotate     #rotate two columns of a factor matrix by theta (in degrees)  
 phi2poly          #convert a matrix of phi coefficients to polychoric correlations  
