@@ -35,9 +35,9 @@ _________________________________________________________________________
 + mat[,2]                                      	- display the 2nd column
 + subset(dataset,logical)                      	- those objects meeting a logical criterion
 + subset(data.df,select=variables,logical)     	- get those objects from a data frame that meet a criterion
-+ data.df[data.df=logical]                     	- yet another way to get a subset
-x[order(x$B),]					|- sort a dataframe by the order of the elements in B
-x[rev(order(x$B)),]				|- sort the dataframe in reverse order 
++ data.df[data.df=logical]                     	- yet another way to get a subset  
+x[order(x$B),]										|- sort a dataframe by the order of the elements in B
+x[rev(order(x$B)),]									|- sort the dataframe in reverse order 
 
 
 # Moving around
