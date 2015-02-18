@@ -3,7 +3,7 @@ ____
 
 ## Input and display
 
-### read files with labels in first row
+#### read files with labels in first row
 read.table(filename,header=TRUE)           #read a tab or space delimited file
 read.table(filename,header=TRUE,sep=',')   #read csv files
 
@@ -59,8 +59,6 @@ punif(q, min=0, max=1, lower.tail = TRUE, log.p = FALSE)
 qunif(p, min=0, max=1, lower.tail = TRUE, log.p = FALSE)  
 runif(n, min=0, max=1)  
 
-
-
 ----
 ## Data manipulation  
 replace(x, list, values)                                        #remember to assign this to some object i.e., x <- replace(x,x==-9,NA) 
@@ -90,6 +88,7 @@ all(x%in%y)                                                     #true if x is a 
 all(x)                                                          # for a vector of logical values, are they all true?
 any(x)                                                          #for a vector of logical values, is at least one true?
 
+----
 ## Statistics and transformations
 max(x, na.rm=TRUE)                                                           #find the maximum value in the vector x, exclude missing values
 min(x, na.rm=TRUE)
@@ -126,8 +125,6 @@ power.t.test(n = NULL, delta = NULL, sd = 1, sig.level = 0.05,
              power = NULL, type = c("two.sample", "one.sample", "paired"),
              alternative = c("two.sided", "one.sided"),strict = FALSE)
 
-
-
 ----
 ## More statistics: Regression, the linear model, factor analysis and principal components analysis (PCA) 
 
@@ -159,6 +156,7 @@ which.min(x)
 which.max(x)
 z=apply(x,1,which.min)                    #tells the row with the minimum value for every column
 
+----
 ## Graphics
 par(mfrow=c(nrow,mcol))                                 #number of rows and columns to graph
 par(ask=TRUE)                                           #ask for user input before drawing a new graph
@@ -221,12 +219,14 @@ To generate random samples from a variety of distributions rnorm(n,mean,sd)
 rbinom(n,size,p)
 sample(x, size, replace = FALSE, prob = NULL)      #samples with or without replacement
 
+----
 ## Working with Dates
 date <-strptime(as.character(date), "%m/%d/%y")   #change the date field to a internal form for time  
                                                   #see ?formats and ?POSIXlt  
 as.Date
 month= months(date)                               #see also weekdays, Julian
 
+----
 ## And more...
 The psych package includes about 350 additional functions that I have created in the last 9 years. These were created because my students and I needed some specific operation. Some functions were added following requests from other users. Follow the instructions for installing the psych package. 
 
