@@ -1,18 +1,8 @@
 # A short list of the most useful R commands
 ____
-----
-
-### %>%
-+ chaining commands - read as "then"
-  - student_info <- students4 %>%
-  
-    select(id, name, sex) %>%
-  
-  - this stores the result of the select in student_info
-
 
 ## Input and display
-----
+
 ### read files with labels in first row
 read.table(filename,header=TRUE)           #read a tab or space delimited file
 read.table(filename,header=TRUE,sep=',')   #read csv files
@@ -36,7 +26,7 @@ x[rev(order(x$B)),]                        #sort the dataframe in reverse order
 
 browse.workspace			   #a Mac menu command that creates a window with information about all variables in the workspace
 
-
+----
 ## Moving around  
 ls()                                                  #list the variables in the workspace  
 rm(x)                                                 #remove x from the workspace  
@@ -51,7 +41,7 @@ new <- subset(old,logical)                            #select those cases that m
 complete  <-  subset(data.df,complete.cases(data.df)) #find those cases with no missing values  
 new <- old[n1:n2,n3:n4]                               #select the n1 through n2 rows of variables n3 through n4)  
 
-
+----
 ## Distributions  
 beta(a, b)  
 gamma(x)  
@@ -71,7 +61,7 @@ runif(n, min=0, max=1)
 
 
 
-
+----
 ## Data manipulation  
 replace(x, list, values)                                        #remember to assign this to some object i.e., x <- replace(x,x==-9,NA) 
                                                                 #similar to the operation x[x==-9] <- NA  
@@ -138,9 +128,8 @@ power.t.test(n = NULL, delta = NULL, sd = 1, sig.level = 0.05,
 
 
 
-
+----
 ## More statistics: Regression, the linear model, factor analysis and principal components analysis (PCA) 
-
 
 matrices
 t(X)                                     #transpose of X
@@ -155,7 +144,7 @@ lm(Y~X|W)
 factanal()    (see also fa in the psych package)
 princomp()     (see principal in the psych package)
 
-
+----
 ## Useful additional commands
 colSums (x, na.rm = FALSE, dims = 1)
 rowSums (x, na.rm = FALSE, dims = 1)
@@ -226,6 +215,7 @@ for (i in 1:5) {
   text(1, i, paste("Plot", i), cex=4)
 }
 
+----
 ## Distributions
 To generate random samples from a variety of distributions rnorm(n,mean,sd)
 rbinom(n,size,p)
