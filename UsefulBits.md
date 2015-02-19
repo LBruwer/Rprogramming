@@ -26,6 +26,12 @@ _________________________________________________________________________
 
 
 # A <a name="A"/>
+### arguments that a function can take - args()
++ args(list.files)
+ - function (path = ".", pattern = NULL, all.files = FALSE, full.names = FALSE, 
+    recursive = FALSE, ignore.case = FALSE, include.dirs = FALSE, 
+    no.. = FALSE) 
+
 
 # B <a name="B"/>
 ### bind_rows
@@ -34,7 +40,12 @@ _________________________________________________________________________
 
 # C <a name="C"/>
 ### class
++ 
 
+### collapse
++ `collapse` argument to the paste() function tells R that when we join together the elements of the 
+   my_char character vector, we'd like to separate them with single spaces.
+ - paste(my_char,collapse = " ")
 
 # D <a name="D"/>
 ### download.file
@@ -81,11 +92,15 @@ _________________________________________________________________________
 + Remove NA's from calculation
   - sum(ss06hid$VAL >= 24,na.rm = TRUE)
 
-
 ### now
 + now()
   - hour, minute
 
+
+# P <a name="P"/>
+### paste()
++ join elements of character vector into continuous string
+ - paste(my_char,collapse = " ")
 
 # S <a name="S"/>
 ### select
