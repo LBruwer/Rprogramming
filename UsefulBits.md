@@ -4,9 +4,10 @@ Contents:
 ## Click on the letter below to scroll to the same section
 
 - [A](#A)  [B](#B)  [C](#C)  [D](#D)  [E](#E)  [F](#F)  [G](#G)  [H](#H)  [I](#I)  [J](#J)  [K](#K)  [L](#L)  [M](#M)  [N](#N)  [O](#O)  [P](#P)  [Q](#Q)  [R](#R)  [S](#S)  [T](#T)  [U](#U)  [V](#V)  [W](#W)  [X](#X)  [Y](#Y)  [Z](#Z)
-- [Swirl](#Swirl)  
-____
-----
+- [Swirl](#Swirl)
+
+_______________________________________________________________________
+-----------------------------------------------------------------------
 
 ### %>%
 + chaining commands - read as "then"
