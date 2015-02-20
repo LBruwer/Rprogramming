@@ -4,7 +4,7 @@ Contents:
 ## Click on the letter below to scroll to the same section
 
 - [A](#A)  [B](#B)  [C](#C)  [D](#D)  [E](#E)  [F](#F)  [G](#G)  [H](#H)  [I](#I)  [J](#J)  [K](#K)  [L](#L)  [M](#M)  [N](#N)  [O](#O)  [P](#P)  [Q](#Q)  [R](#R)  [S](#S)  [T](#T)  [U](#U)  [V](#V)  [W](#W)  [X](#X)  [Y](#Y)  [Z](#Z)
-- [Swirl](#Swirl)
+- [Swirl](#Swirl)  
 _________________________________________________________________________
 -------------------------------------------------------------------------
 
@@ -218,6 +218,7 @@ _________________________________________________________________________
 ### Swirl
 
 | When you are at the R prompt (>):
+
 | -- Typing skip() allows you to skip the current question.  
 | -- Typing play() lets you experiment with R on your own; swirl will ignore what you do...  
 | -- UNTIL you type nxt() which will regain swirl's attention.  
