@@ -103,6 +103,10 @@ _________________________________________________________________________
  - paste(my_char,collapse = " ")
 
 # S <a name="S"/>
+### sample()
++ my_data <- sample(c(y,z),100)
+
+
 ### select
 + select(x,age) returns only column age
 
