@@ -95,6 +95,8 @@ _________________________________________________________________________
 ### NA
 + Remove NA's from calculation
   - sum(ss06hid$VAL >= 24,na.rm = TRUE)
++ remove NA's from vector x and assign to vector y
+ - y <- x[!is.na(x)]
 
 ### now
 + now()
