@@ -32,6 +32,10 @@ _________________________________________________________________________
     recursive = FALSE, ignore.case = FALSE, include.dirs = FALSE, 
     no.. = FALSE) 
 
+# assign
++ transfer a variable from a function to the global environment
++ assign("AAA",newFile,envir = .GlobalEnv)
+ - AAA is the variable
 
 # B <a name="B"/>
 ### bind_rows
@@ -101,6 +105,16 @@ _________________________________________________________________________
 ### paste()
 + join elements of character vector into continuous string
  - paste(my_char,collapse = " ")
+
+
+# R <a name="R"/>
+### read.csv()
++ reads .csv (and comma seperated .txt ) files
++ read.csv(file_list[i],header = FALSE,skip=1)
+ - header = FALSE skips the header
+ - skip = 1 ignores the 1st data row
++ read.csv("your_file")
+
 
 # S <a name="S"/>
 ### sample()
