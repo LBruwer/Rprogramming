@@ -27,13 +27,18 @@ _______________________________________________________________________
 
 
 # A <a name="A"/>
+## apply() loop function
+### lapply
+
+### sapply
+
 ### arguments that a function can take - args()
 + args(list.files)
  - function (path = ".", pattern = NULL, all.files = FALSE, full.names = FALSE, 
     recursive = FALSE, ignore.case = FALSE, include.dirs = FALSE, 
     no.. = FALSE) 
 
-# assign
+### assign
 + transfer a variable from a function to the global environment
 + assign("AAA",newFile,envir = .GlobalEnv)
  - AAA is the variable
@@ -56,6 +61,10 @@ _______________________________________________________________________
 ### download.file
 + download.file(fileUrl, destfile="./data/microdata.csv", method="curl")
   - fileurl <- "https://... "
+
+### dim
++ dimension of the variable
+ - dim(x)
 
 
 # F <a name="F"/>
