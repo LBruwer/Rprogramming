@@ -34,6 +34,8 @@ _______________________________________________________________________
 
 
 ### sapply
++ average miles per gallon by number of cylinders
+ - sapply(split(mtcars$mpg, mtcars$cyl), mean)
 
 ### arguments that a function can take - args()
 + args(list.files)
@@ -198,7 +200,6 @@ _______________________________________________________________________
  - all(ints>0)
 + subset of matrix with 2 columns filtered
  - subset(x, Ozone > 31 & Temp > 90)
-
 
 ### sum
 + sum(ss06hid$VAL >= 24)
