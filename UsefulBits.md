@@ -180,7 +180,6 @@ _______________________________________________________________________
 + my_data <- sample(c(y,z),100)
 + rep(c(0, 1, 2), each = 10)
 
-
 ### select
 + select(x,age) returns only column age
 
@@ -197,6 +196,9 @@ _______________________________________________________________________
  - any(ints<0)
 + all()
  - all(ints>0)
++ subset of matrix with 2 columns filtered
+ - subset(x, Ozone > 31 & Temp > 90)
+
 
 ### sum
 + sum(ss06hid$VAL >= 24)
