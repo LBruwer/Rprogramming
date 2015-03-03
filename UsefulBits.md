@@ -299,6 +299,10 @@ _______________________________________________________________________
 # swirl <a name="swirl"/>
 <a name="Swirl"/>
 ### Swirl
++ library(swirl)
++ install_from_swirl("R Programming")
++ 
+
 
 | When you are at the R prompt (>):
 
