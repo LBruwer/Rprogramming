@@ -29,6 +29,9 @@ _______________________________________________________________________
 # A <a name="A"/>
 ## apply() loop function
 ### lapply
+ - cls_list <- lapply(flags,class)
+ - apply the class() function to each column of the flags dataset and store the result in a variable called cls_list
+
 
 ### sapply
 
@@ -62,6 +65,12 @@ _______________________________________________________________________
 + download.file(fileUrl, destfile="./data/microdata.csv", method="curl")
   - fileurl <- "https://... "
 
+### directory
++ make directory
+ - mkdir("testdir")
++ set working directory
+ - setwd("testdir") 
+
 ### dim
 + dimension of the variable
  - dim(x)
@@ -72,6 +81,23 @@ _______________________________________________________________________
 + create new directory
   - dir.create("data")
 
+### create file
++ file.create("mytest.R")
+
+### rename file
++ file.rename("mytest.R", "mytest2.R")
+
+### file copy
++ file.copy("mytest2.R" , "mytest3.R")
+
+### full file path
++ file.path("mytest3.R")
+
+### create sub directory
++ dir.create("testdir2/testdir3", recursive = TRUE)
+
+### delete sub directory
++ unlink("testdir2", recursive = TRUE)
 
 # H <a name="H"/>
 <a name="Help"/>
@@ -85,6 +111,18 @@ _______________________________________________________________________
 # L <a name="L"/>
 ### locale - date and region settings
 + Sys.getlocale("LC_TIME")
+
+### list files in directory
++ list.files()
+
+### check if file exists
++ file.exists("mytest.R")
+
+### info on file in directory
++ file.info("mytest.R")
+
+### grab specific items of info on file
++ file.info("mytest.R")$mode
 
 
 # M <a name="M"/>
@@ -108,6 +146,11 @@ _______________________________________________________________________
 + remove NA's from vector x and assign to vector y
  - y <- x[!is.na(x)]
 
+### names
++ column names
+ - cnames <- c("patient", "age", "weight","bp", "rating", "test")
+ - colnames(my_data) <- cnames
+
 ### now
 + now()
   - hour, minute
@@ -117,6 +160,7 @@ _______________________________________________________________________
 ### paste()
 + join elements of character vector into continuous string
  - paste(my_char,collapse = " ")
+ - paste(LETTERS, 1:4, sep = "-")
 
 
 # R <a name="R"/>
@@ -127,19 +171,32 @@ _______________________________________________________________________
  - skip = 1 ignores the 1st data row
 + read.csv("your_file")
 
+### repeat
++ rep(0, times = 40)
++  rep(c(0, 1, 2), times = 10)
 
 # S <a name="S"/>
 ### sample()
 + my_data <- sample(c(y,z),100)
++ rep(c(0, 1, 2), each = 10)
 
 
 ### select
 + select(x,age) returns only column age
 
-### Structure
+### structure
 + display the dtructure of an arbitrary R object
 + provides useful summary on dataset
   - str(x)
+
+### subsets
++ which()
+ - which(ints>7)
+ - which(ints <= 2)
++ any()
+ - any(ints<0)
++ all()
+ - all(ints>0)
 
 ### sum
 + sum(ss06hid$VAL >= 24)
@@ -209,6 +266,8 @@ _______________________________________________________________________
 + displays the dataset in tabular form
 + note the capital V
   - View(x)
+
+### viewinfo()
 
 
 # W <a name="W"/>
