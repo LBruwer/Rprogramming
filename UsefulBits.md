@@ -79,6 +79,10 @@ _______________________________________________________________________
 
 
 # F <a name="F"/>
+### factor
++ factor(letters[1:20], labels = "letter")
+ - produces letter1  letter2  letter3  lette4 etc up to letter20
+
 ### File and Directory Management
 + create new directory
   - dir.create("data")
@@ -219,6 +223,13 @@ _______________________________________________________________________
   -  m <- matrix(1:4,2)
   -  m
   -  prop.table(m,1)
+
+### test if vector contains element
++ v <- c('a','b','c','e')
+ - 'b' %in% v
+ - returns TRUE
++ state %in% state.list
+ 
 
 ### today {lubridate}
 + today()
