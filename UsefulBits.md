@@ -172,6 +172,13 @@ _______________________________________________________________________
  - paste(my_char,collapse = " ")
  - paste(LETTERS, 1:4, sep = "-")
 
+### plot
++ data(cars)
++ plot(cars) (plot is short for scatterplot)
++ plot(x = cars$speed, y = cars$dist, xlab = "Speed")
+ - label of x axis is now "speed"
++ par (graphical paramenters
+
 
 # R <a name="R"/>
 ### read.csv()
