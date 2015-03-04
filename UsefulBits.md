@@ -327,8 +327,11 @@ _______________________________________________________________________
 ### Swirl
 + library(swirl)
 + install_from_swirl("R Programming")
-+ 
-
++ install_from_swirl("Getting and Cleaning Data")
++ install_from_swirl("Data Analysis")
++ install_from_swirl("Regression Models")
++ install_from_swirl("Open Intro")
++ install_from_swirl("Statistical Inference")
 
 | When you are at the R prompt (>):
 
