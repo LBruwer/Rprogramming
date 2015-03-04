@@ -63,6 +63,9 @@ _______________________________________________________________________
  - paste(my_char,collapse = " ")
 
 # D <a name="D"/>
+### data
++ data(mtcars)  (load data frame)
+
 ### download.file
 + download.file(fileUrl, destfile="./data/microdata.csv", method="curl")
   - fileurl <- "https://... "
@@ -177,7 +180,13 @@ _______________________________________________________________________
 + plot(cars) (plot is short for scatterplot)
 + plot(x = cars$speed, y = cars$dist, xlab = "Speed")
  - label of x axis is now "speed"
-+ par (graphical paramenters
+ - plot(cars,col=2)  (changes plot colour to red)
+ - plot(cars,xlim =c(10,15)) (limit x axis 10 -15)
++ par (graphical paramenters)
++ symbols change
+ - plot(cars,pch = 2) (triangles)
++ ggplot
+ - 
 
 
 # R <a name="R"/>
