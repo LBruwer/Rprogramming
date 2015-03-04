@@ -54,8 +54,9 @@ _______________________________________________________________________
 
 
 # C <a name="C"/>
-### class
-+ 
+### class()
+
+### unclass()
 
 ### collapse
 + `collapse` argument to the paste() function tells R that when we join together the elements of the 
@@ -65,6 +66,13 @@ _______________________________________________________________________
 # D <a name="D"/>
 ### data
 + data(mtcars)  (load data frame)
+
+### date and time
++ strptime()
+ - t3 <- "October 17, 1986 08:24"
+ - strptime(t3, "%B %d, %Y %H:%M")
+ - returns "1986-10-17 08:24:00 SAST"
+
 
 ### download.file
 + download.file(fileUrl, destfile="./data/microdata.csv", method="curl")
