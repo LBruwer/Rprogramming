@@ -138,6 +138,10 @@ _______________________________________________________________________
 + matrix with four elements 1,2,3,4 in 2 rows
   - matrix(1:4,2)
 
+### memory occupied
++ object.size(x)
+ - returns 644232 bytes
+
 ### mutate {dplyr}
 + add new column called status to table called passed
 + assign the value "passed" to each row in table
@@ -217,6 +221,9 @@ _______________________________________________________________________
 
 # T <a name="T"/>
 ### table
++ table cross-classifying factors of counts
+ - table(plants$Active_Growth_Period)
++ tabular 
 + tabular summary of subset of data
   - summary(x$age)
 + prop.table returns table entries as fraction of the marginal table
