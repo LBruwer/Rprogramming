@@ -72,7 +72,8 @@ _______________________________________________________________________
  - t3 <- "October 17, 1986 08:24"
  - strptime(t3, "%B %d, %Y %H:%M")
  - returns "1986-10-17 08:24:00 SAST"
-
++ difftime(Sys.time(), t1, units = 'days')
+ - returns Time difference of 0.006077154 days
 
 ### download.file
 + download.file(fileUrl, destfile="./data/microdata.csv", method="curl")
@@ -340,6 +341,8 @@ _______________________________________________________________________
 + install_from_swirl("Regression Models")
 + install_from_swirl("Open Intro")
 + install_from_swirl("Statistical Inference")
+
++  uninstall_course("Course Name Here") 
 
 | When you are at the R prompt (>):
 
