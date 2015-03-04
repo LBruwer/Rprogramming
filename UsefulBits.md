@@ -186,7 +186,10 @@ _______________________________________________________________________
 + symbols change
  - plot(cars,pch = 2) (triangles)
 + ggplot
- - 
++ boxplot
+ - boxplot(formula = mpg ~ cyl , data = mtcars)
++ hist
+ - hist(mtcars$mpg)
 
 
 # R <a name="R"/>
