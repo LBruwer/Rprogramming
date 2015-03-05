@@ -28,10 +28,9 @@ _______________________________________________________________________
 
 # A <a name="A"/>
 ## apply() loop function
-### lapply
+### lapply (list apply)
  - cls_list <- lapply(flags,class)
  - apply the class() function to each column of the flags dataset and store the result in a variable called cls_list
-
 
 ### sapply
 + average miles per gallon by number of cylinders
@@ -202,6 +201,11 @@ _______________________________________________________________________
 
 
 # R <a name="R"/>
+### rattle()
++ connect to SQL 
+ - library(RODBC)
+ - DSN setup ODBC setup in Windows
+
 ### read.csv()
 + reads .csv (and comma seperated .txt ) files
 + read.csv(file_list[i],header = FALSE,skip=1)
