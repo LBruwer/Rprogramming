@@ -31,7 +31,10 @@ _______________________________________________________________________
 ### lapply (list apply)
  - cls_list <- lapply(flags,class)
  - apply the class() function to each column of the flags dataset and store the result in a variable called cls_list
-
+   To get a list containing the sum of each column of flag_colors, call the lapply() function with
+   two arguments. The first argument is the object over which we are looping (i.e. flag_colors) and
+   the second argument is the name of the function we wish to apply to each column (i.e. sum).
+   
 ### sapply
 + average miles per gallon by number of cylinders
  - sapply(split(mtcars$mpg, mtcars$cyl), mean)
