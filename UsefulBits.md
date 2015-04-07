@@ -209,6 +209,9 @@ _______________________________________________________________________
  - library(RODBC)
  - DSN setup ODBC setup in Windows
 
+### range
++ returns the minimum and maximum of its first argument
+
 ### read.csv()
 + reads .csv (and comma seperated .txt ) files
 + read.csv(file_list[i],header = FALSE,skip=1)
@@ -344,6 +347,7 @@ _______________________________________________________________________
 + library(swirl)
 + install_from_swirl("R Programming")
 + install_from_swirl("Getting and Cleaning Data")
++ install_from_swirl("Exploratory Data Analysis")
 + install_from_swirl("Data Analysis")
 + install_from_swirl("Regression Models")
 + install_from_swirl("Open Intro")
