@@ -330,6 +330,12 @@ _______________________________________________________________________
 
 
 # W <a name="W"/>
+<a name="Working Directory"/>
+### Set Working Directory
++ setwd("~/")
++ setwd("J:/01 Training Courses")
++ setwd("J:/01 Training Courses/Coursera/04 Exploratory Data Analysis/Data")
+
 <a name="Workspace"/>
 ### Workspace
 ### list of variables
