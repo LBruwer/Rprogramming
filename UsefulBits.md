@@ -79,8 +79,8 @@ _______________________________________________________________________
  - returns Time difference of 0.006077154 days
 
 ### download.file
-+ download.file(fileUrl, destfile="./data/microdata.csv", method="curl")
-  - fileurl <- "https://... "
++ download.file(fileUrl, destfile="./data/microdata.csv", )       (use method="curl" for mac)
+    - fileurl <- "https://... "
 
 ### directory
 + make directory
@@ -320,6 +320,9 @@ _______________________________________________________________________
 ### unique
 + eliminates duplicate rows
 
+### unzip
++ unzip("data/activity.zip")
+
 
 # V <a name="V"/>
 ### View
@@ -347,6 +350,20 @@ _______________________________________________________________________
 ### write.csv
 ### write .csv file from data loaded in R
 + write.csv(by_package, file = "by_package.csv")
+
+
+# X <a name="X"/>
+
+# Y <a name="Y"/>
+
+# Z <a name="Z"/>
+
+
+
+
+
+
+
 
 # swirl <a name="swirl"/>
 <a name="Swirl"/>
