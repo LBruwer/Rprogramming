@@ -392,12 +392,12 @@ _______________________________________________________________________
 # packages <a name="packages"/>
 <a name="R Packages"/>
 ## install.packages("package name here")
-### dplr
+### dplyr
 ### ggplot2
 ### swirl
-### Rccp
 ### knitr
-
+### data.table
+### ? Rccp
 
 
 
