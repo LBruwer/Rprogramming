@@ -391,6 +391,7 @@ _______________________________________________________________________
 
 # packages <a name="packages"/>
 <a name="R Packages"/>
+### R Packages
 ## install.packages("package name here")
 ### dplyr
 ### ggplot2
