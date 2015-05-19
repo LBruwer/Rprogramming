@@ -391,10 +391,13 @@ _______________________________________________________________________
 
 # packages <a name="packages"/>
 <a name="R Packages"/>
+## install.packages("package name here")
 ### dplr
 ### ggplot2
 ### swirl
 ### Rccp
+### knitr
+
 
 
 
