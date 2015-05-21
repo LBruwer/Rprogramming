@@ -270,6 +270,14 @@ _______________________________________________________________________
   -  m
   -  prop.table(m,1)
 
++ table data frame {dplyr}
+ - tbl_df
+    - select()  subset of columns
+    - filter()  subset of rows
+    - arrange()
+    - mutate()
+    - summarize()
+
 ### test if vector contains element
 + v <- c('a','b','c','e')
  - 'b' %in% v
