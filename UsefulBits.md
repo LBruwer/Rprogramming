@@ -277,6 +277,12 @@ _______________________________________________________________________
     - arrange()
     - mutate()
     - summarize()
+ - chaining %>%
+    - cran %>%
+      select(ip_id, country, package, size) %>%
+      mutate(size_mb = size / 2^20) %>%          add column size_mb derived from existing column size
+      filter(size_mb <= 0.5) %>%                 filter results by size_mb <= 0.5
+      arrange(desc(size_mb))                     sort descending by size_mb
 
 ### test if vector contains element
 + v <- c('a','b','c','e')
