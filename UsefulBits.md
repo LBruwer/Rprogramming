@@ -224,7 +224,9 @@ _______________________________________________________________________
 + rep(0, times = 40)
 +  rep(c(0, 1, 2), times = 10)
 
+
 # S <a name="S"/>
+
 ### sample()
 + my_data <- sample(c(y,z),100)
 + rep(c(0, 1, 2), each = 10)
@@ -236,6 +238,13 @@ _______________________________________________________________________
 + display the dtructure of an arbitrary R object
 + provides useful summary on dataset
   - str(x)
+
+### SQL
++ library("RODBC")
++ library(RODBC)
+ - channel <- odbcConnect("jhbbi",uid="ReportUser",pwd="ReportUser")
+ - ChannelHierarchy <- sqlQuery(channel,"SELECT * FROM DW.dim.PartnerListNew")
+ - close(channel)
 
 ### subsets
 + which()
@@ -415,6 +424,8 @@ _______________________________________________________________________
 ### rattle
 ### rpart.plot
 ### RColorBrewer
+
+### install.packages("RODBC",type = "source")
 
 ### ? Rccp
 
