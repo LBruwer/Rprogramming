@@ -239,12 +239,15 @@ _______________________________________________________________________
 + provides useful summary on dataset
   - str(x)
 
-### SQL
+### SQL {RODBC}
 + library("RODBC")
 + library(RODBC)
  - channel <- odbcConnect("jhbbi",uid="ReportUser",pwd="ReportUser")
  - ChannelHierarchy <- sqlQuery(channel,"SELECT * FROM DW.dim.PartnerListNew")
  - close(channel)
+
++ sqldf {sqldf}
+
 
 ### subsets
 + which()
@@ -426,6 +429,7 @@ _______________________________________________________________________
 ### RColorBrewer
 
 ### install.packages("RODBC",type = "source")
+###  install.packages("sqldf")
 
 ### ? Rccp
 
