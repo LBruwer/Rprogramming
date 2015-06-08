@@ -429,7 +429,7 @@ _______________________________________________________________________
 ### RColorBrewer
 
 ### install.packages("RODBC",type = "source")
-###  install.packages("sqldf")
+### install.packages("sqldf")
 
 ### ? Rccp
 

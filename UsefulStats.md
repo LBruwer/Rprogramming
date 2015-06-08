@@ -1,4 +1,4 @@
-# Statist
+# Useful Statistical Info
 
 Contents:
 ## Click on the letter below to scroll to the same section
@@ -102,12 +102,12 @@ _______________________________________________________________________
 +
 
 # V 
-### 
-+
+### Variance
++ Var(X) = E( (X-mu)^2 ) = E( (X-E(X))^2 ) = E(X^2)-E(X)^2
 
 # W 
-### 
-+
+### Useful Websites
++ http://betterexplained.com/
 
 # X 
 ### 
