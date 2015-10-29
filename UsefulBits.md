@@ -219,6 +219,9 @@ _______________________________________________________________________
  - header = FALSE skips the header
  - skip = 1 ignores the 1st data row
 + read.csv("your_file")
++ train_url <- "http://s3.amazonaws.com/assets.datacamp.com/course/Kaggle/train.csv"
+ - 
+train <- read.csv(train_url)
 
 ### repeat
 + rep(0, times = 40)
