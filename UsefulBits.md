@@ -10,8 +10,6 @@ Contents:
 _______________________________________________________________________
 -----------------------------------------------------------------------
 
-Testing Something
-
 
 ### %>%
 + chaining commands - read as "then"
@@ -225,6 +223,12 @@ Testing Something
 + train_url <- "http://s3.amazonaws.com/assets.datacamp.com/course/Kaggle/train.csv"
  - 
 train <- read.csv(train_url)
+
+### recoding variables
++ Assign the label "high" to mpgcategory where mpg is greater than or equal to 20
+
++ mtcars2$mpgcategory[mtcars2$mpg >= 20] <- "high"
+
 
 ### repeat
 + rep(0, times = 40)
