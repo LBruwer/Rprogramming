@@ -120,4 +120,5 @@ _______________________________________________________________________
 # Z 
 ### Z scores
 + Zi = (xi -mean)/ sd(x)
++ The Z-score represents how many standard deviations from the mean a value lies
 
